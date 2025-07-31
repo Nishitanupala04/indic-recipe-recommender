@@ -1,0 +1,7 @@
+pydantic # FastAPI uses this, good to explicitly list
+transformers
+torch # Or tensorflow-cpu/tensorflow-gpu if you used TF
+accelerate # Often useful for LLM inference optimization
+bitsandbytes # For 4-bit quantization if your model requires it
+sentencepiece # Required by some tokenizers, like Llama models
+python-dotenv # To load .env file
